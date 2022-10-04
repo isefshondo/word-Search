@@ -1,4 +1,15 @@
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "xml/listaRock.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML;
+
+let bandas = xmlDoc.getElementsByTagName("banda");
+
+tam = bandas.length;
+
 function gerarWordSearch(){
+  let y = 0;
+
   let wordSearch = new Array;
 
   wordSearch = [
@@ -20,24 +31,28 @@ function gerarWordSearch(){
   for(let i = 0; i < 12; i++){
     document.write("<tr>");
     for(let j = 0; j < 18; j++){
-      document.write("<td>" + wordSearch[i][j] + "</td>");
+      y++;
+      document.write("<td id='" + y + "'>" + wordSearch[i][j] + "</td>");
     }
     document.write("</tr>");
   }
   document.write("</table>");
 
-  selecionarLetra();
+  colorirPalavra();
+
 }
 
-function selecionarLetra(){
-  for(let celula of document.querySelectorAll("td")){
-    celula.onclick = function(){
-      if(celula.className == ""){
-        celula.className = "Selecionado";
-      }
-      else{
-        celula.className = "";
-      }
+function colorirPalavra(){
+  for(let i = 0; i <= tam - 1; i++){
+    let inicio = parseInt(bandas[i].getElementsByTagName("inicio")[0].childNodes[0].nodeValue);
+    let fim = parseInt(bandas[i].getElementsByTagName("final")[0].childNodes[0].nodeValue);
+    let incremento = parseInt(bandas[i].getElementsByTagName("incremento")[0].childNodes[0].nodeValue);
+    let cor = bandas[i].getElementsByTagName("cor")[0].childNodes[0].nodeValue;
+
+    console.log(inicio, fim, incremento, cor);
+
+    for(let j = inicio; j <= fim; j += incremento){
+      document.getElementById(j).style.background = cor;
     }
   }
 }

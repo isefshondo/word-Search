@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bandas>
+  <banda id="1">
+    <nome>Aerosmith</nome>
+    <inicio>20</inicio>
+    <final>28</final>
+    <incremento>1</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="2">
+    <nome>Billy Idol</nome>
+    <inicio>200</inicio>
+    <final>208</final>
+    <incremento>1</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="3">
+    <nome>Coldplay</nome>
+    <inicio>78</inicio>
+    <final>186</final>
+    <incremento>18</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="4">
+    <nome>Elton John</nome>
+    <inicio>55</inicio>
+    <final>199</final>
+    <incremento>18</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="5">
+    <nome>Green Day</nome>
+    <inicio>189</inicio>
+    <final>196</final>
+    <incremento>1</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="6">
+    <nome>Iron Maiden</nome>
+    <inicio>57</inicio>
+    <final>66</final>
+    <incremento>1</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="7">
+    <nome>Nirvana</nome>
+    <inicio>45</inicio>
+    <final>153</final>
+    <incremento>18</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="8">
+    <nome>Pink Floyd</nome>
+    <inicio>39</inicio>
+    <final>183</final>
+    <incremento>18</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="9">
+    <nome>Queen</nome>
+    <inicio>138</inicio>
+    <final>210</final>
+    <incremento>18</incremento>
+    <cor>#fff000</cor>
+  </banda>
+  <banda id="10">
+    <nome>The Beatles</nome>
+    <inicio>2</inicio>
+    <final>11</final>
+    <incremento>1</incremento>
+    <cor>#fff000</cor>
+  </banda>
+</bandas>
