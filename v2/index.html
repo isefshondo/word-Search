@@ -43,17 +43,16 @@
     [1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0],
     [1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0],
     [1,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0],
-    [0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0]
+    [1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0]
     ];
 
     document.write("<table border='3'>");
       for(i = 0; i < 12; i++){
         document.write("<tr>");
           for(j = 0; j < 18; j++){
-            document.write("<td id='"+ i.toString() + j.toString() +"'>" + m[i][j] + "</td>");
-            m[i][j] = maux[i][j];
+            document.write("<td id='"+ i.toString()+ "." + j.toString() +"'>" + m[i][j] + "</td>");
             if(maux[i][j] == 1){
-              document.getElementById(i.toString() + j.toString()).style.background = '#fff000';
+              document.getElementById(i.toString()+ "." + j.toString()).style.background = '#fff000';
             }
           }
         document.write("</tr>");
