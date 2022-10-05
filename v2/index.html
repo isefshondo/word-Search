@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste</title>
+  <style>
+    .Pintar{
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let m = new Array;
+    let maux = new Array;
+    let i, j;
+
+    m = [
+    ['A','B','C'],
+    ['M','D','O'],
+    ['O','R','E'],
+    ['R','T','R']
+    ];
+
+    maux = [
+    [1,0,0],
+    [1,0,0],
+    [1,0,0],
+    [1,0,0]
+    ];
+
+    document.write("<table border='3'>");
+      for(i = 0; i < 4; i++){
+        document.write("<tr>");
+          for(j = 0; j < 3; j++){
+            document.write("<td id='"+ i.toString() + j.toString() +"'>" + m[i][j] + "</td>");
+            m[i][j] = maux[i][j];
+            if(maux[i][j] == 1){
+              document.getElementById(i.toString() + j.toString()).style.background = '#fff000';
+            }
+          }
+        document.write("</tr>");
+      }
+    document.write("</table>");
+  </script>
+</body>
+</html>
