@@ -5,14 +5,14 @@
     <inicio>20</inicio>
     <final>28</final>
     <incremento>1</incremento>
-    <cor>#fff000</cor>
+    <cor>#d9d9d9</cor>
   </banda>
   <banda id="2">
     <nome>Billy Idol</nome>
     <inicio>200</inicio>
     <final>208</final>
     <incremento>1</incremento>
-    <cor>#fff000</cor>
+    <cor>#da8ee7</cor>
   </banda>
   <banda id="3">
     <nome>Coldplay</nome>
@@ -26,48 +26,48 @@
     <inicio>55</inicio>
     <final>199</final>
     <incremento>18</incremento>
-    <cor>#fff000</cor>
+    <cor>#ff0000</cor>
   </banda>
   <banda id="5">
     <nome>Green Day</nome>
     <inicio>189</inicio>
     <final>196</final>
     <incremento>1</incremento>
-    <cor>#fff000</cor>
+    <cor>#97bb72</cor>
   </banda>
   <banda id="6">
     <nome>Iron Maiden</nome>
     <inicio>57</inicio>
     <final>66</final>
     <incremento>1</incremento>
-    <cor>#fff000</cor>
+    <cor>#bebebe</cor>
   </banda>
   <banda id="7">
     <nome>Nirvana</nome>
     <inicio>45</inicio>
     <final>153</final>
     <incremento>18</incremento>
-    <cor>#fff000</cor>
+    <cor>#a020f0</cor>
   </banda>
   <banda id="8">
     <nome>Pink Floyd</nome>
     <inicio>39</inicio>
     <final>183</final>
     <incremento>18</incremento>
-    <cor>#fff000</cor>
+    <cor>#ffc0cb</cor>
   </banda>
   <banda id="9">
     <nome>Queen</nome>
     <inicio>138</inicio>
     <final>210</final>
     <incremento>18</incremento>
-    <cor>#fff000</cor>
+    <cor>#d4af37</cor>
   </banda>
   <banda id="10">
     <nome>The Beatles</nome>
     <inicio>2</inicio>
     <final>11</final>
     <incremento>1</incremento>
-    <cor>#fff000</cor>
+    <cor>#4e97d1</cor>
   </banda>
 </bandas>
